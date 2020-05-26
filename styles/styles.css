@@ -1,5 +1,5 @@
 body {
-	background-image: url("bg.png");
+	background-image: url("../assets/bg.png");
 	background-size: cover;
 	background-position: center;
 	font-size: 16px;
@@ -27,7 +27,6 @@ main h3 {
 
 #head {
 	margin-bottom: -1px;
-	/* font-weight: bold; */
 	font-size: 3rem;
 }
 
@@ -51,9 +50,9 @@ main h3 {
 	text-align: center;
 	padding-top: 13%;
 	color: white;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-	0px 8px 13px rgba(0,0,0,0.1),
-	0px 18px 23px rgba(0,0,0,0.1);
+	text-shadow: 	0px 4px 3px rgba(0, 0, 0, 0.4), 
+				 	0px 8px 13px rgba(0, 0, 0, 0.1), 
+					0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .mdl-textfield__input {
@@ -65,18 +64,19 @@ main h3 {
 
 .mdl-textfield__label {
 	color: #fff;
-	text-shadow:none;
+	text-shadow: none;
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
-input:-webkit-autofill:active  {
+input:-webkit-autofill:active {
 	-webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 
-.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
-	color: rgb(66,66,66);
+.mdl-button--accent.mdl-button--accent.mdl-button--raised,
+.mdl-button--accent.mdl-button--accent.mdl-button--fab {
+	color: rgb(66, 66, 66);
 	background-color: #fff;
 }
 
